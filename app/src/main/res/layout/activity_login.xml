@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical">
+
+    <TextView
+        android:id="@+id/user_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login_user" />
+
+    <EditText
+        android:id="@+id/user_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/user_textview" />
+
+
+    <TextView
+        android:id="@+id/pass_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/user_edittext"
+        android:text="@string/login_pass" />
+
+    <EditText
+        android:id="@+id/pass_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pass_textview" />
+
+
+    <CheckBox
+        android:id="@+id/remember"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pass_edittext"
+        android:text="@string/login_remember" />
+
+
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/remember"
+        android:layout_centerHorizontal="true"
+        android:text="@string/login_init_session" />
+
+    <TextView
+        android:id="@+id/forget_pass_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login_button"
+        android:gravity="center"
+        android:text="@string/login_forget_pass" />
+
+    <TextView
+        android:id="@+id/register_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/forget_pass_textview"
+        android:gravity="center"
+        android:text="@string/login_register" />
+</RelativeLayout>

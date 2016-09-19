@@ -2,7 +2,6 @@ package vivimos.janssen.com.vivimos.activities;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
 import android.widget.TextView;
 
 import butterknife.BindView;
