@@ -1,7 +1,7 @@
-package vivimos.janssen.com.vivimos.mvp.presenter;
+package vivimos.janssen.com.mvp.presenter;
 
-import vivimos.janssen.com.vivimos.mvp.model.ConfirmationModel;
-import vivimos.janssen.com.vivimos.mvp.view.ConfirmationView;
+import vivimos.janssen.com.mvp.model.ConfirmationModel;
+import vivimos.janssen.com.mvp.view.ConfirmationView;
 
 public class ConfirmationPresenter {
     ConfirmationModel model;

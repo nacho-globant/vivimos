@@ -1,4 +1,4 @@
-package vivimos.janssen.com.vivimos.mvp.model;
+package vivimos.janssen.com.mvp.model;
 
 
 public class LoginModel {

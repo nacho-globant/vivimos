@@ -1,14 +1,14 @@
-package vivimos.janssen.com.vivimos.activities;
+package vivimos.janssen.com.activities;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
 import butterknife.ButterKnife;
 import butterknife.OnClick;
-import vivimos.janssen.com.vivimos.R;
-import vivimos.janssen.com.vivimos.mvp.model.ConfirmationModel;
-import vivimos.janssen.com.vivimos.mvp.presenter.ConfirmationPresenter;
-import vivimos.janssen.com.vivimos.mvp.view.ConfirmationView;
+import vivimos.janssen.com.R;
+import vivimos.janssen.com.mvp.model.ConfirmationModel;
+import vivimos.janssen.com.mvp.presenter.ConfirmationPresenter;
+import vivimos.janssen.com.mvp.view.ConfirmationView;
 
 public class ConfirmationActivity extends AppCompatActivity {
 

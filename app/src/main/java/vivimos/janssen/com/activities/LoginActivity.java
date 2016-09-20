@@ -1,14 +1,14 @@
-package vivimos.janssen.com.vivimos.activities;
+package vivimos.janssen.com.activities;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
 import butterknife.ButterKnife;
 import butterknife.OnClick;
-import vivimos.janssen.com.vivimos.R;
-import vivimos.janssen.com.vivimos.mvp.model.LoginModel;
-import vivimos.janssen.com.vivimos.mvp.presenter.LoginPresenter;
-import vivimos.janssen.com.vivimos.mvp.view.LoginView;
+import vivimos.janssen.com.R;
+import vivimos.janssen.com.mvp.model.LoginModel;
+import vivimos.janssen.com.mvp.presenter.LoginPresenter;
+import vivimos.janssen.com.mvp.view.LoginView;
 
 public class LoginActivity extends AppCompatActivity {
 

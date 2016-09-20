@@ -4,8 +4,8 @@ android {
     compileSdkVersion 24
     buildToolsVersion "24.0.0"
     defaultConfig {
-        applicationId "vivimos.janssen.com.vivimos"
-        minSdkVersion 15
+        applicationId "vivimos.janssen.com"
+        minSdkVersion 16
         targetSdkVersion 24
         versionCode 1
         versionName "1.0"

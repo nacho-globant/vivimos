@@ -1,4 +1,4 @@
-package vivimos.janssen.com.vivimos.activities;
+package vivimos.janssen.com.activities;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -7,7 +7,7 @@ import android.widget.TextView;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import timber.log.Timber;
-import vivimos.janssen.com.vivimos.R;
+import vivimos.janssen.com.R;
 
 public class HomeActivity extends AppCompatActivity {
 

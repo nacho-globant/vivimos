@@ -1,4 +1,4 @@
-package vivimos.janssen.com.vivimos.mvp.view;
+package vivimos.janssen.com.mvp.view;
 
 import android.app.Activity;
 import android.app.FragmentManager;

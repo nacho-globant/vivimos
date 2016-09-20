@@ -1,4 +1,4 @@
-package vivimos.janssen.com.vivimos.mvp.view;
+package vivimos.janssen.com.mvp.view;
 
 
 import android.app.Activity;
@@ -9,7 +9,7 @@ import android.widget.TextView;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
-import vivimos.janssen.com.vivimos.R;
+import vivimos.janssen.com.R;
 
 public class ConfirmationView extends ActivityView {
 

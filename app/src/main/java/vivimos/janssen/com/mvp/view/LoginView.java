@@ -1,4 +1,4 @@
-package vivimos.janssen.com.vivimos.mvp.view;
+package vivimos.janssen.com.mvp.view;
 
 import android.app.Activity;
 import android.widget.EditText;
@@ -7,7 +7,7 @@ import android.widget.Toast;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
-import vivimos.janssen.com.vivimos.R;
+import vivimos.janssen.com.R;
 
 public class LoginView extends ActivityView {
     @BindView(R.id.forget_pass_textview) TextView forgetPassTextView;

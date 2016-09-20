@@ -1,4 +1,4 @@
-package vivimos.janssen.com.vivimos;
+package vivimos.janssen.com;
 
 import org.junit.Test;
 

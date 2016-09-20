@@ -1,4 +1,4 @@
-package vivimos.janssen.com.vivimos.utils;
+package vivimos.janssen.com.utils;
 
 import com.squareup.otto.Bus;
 
