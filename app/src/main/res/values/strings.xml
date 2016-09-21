@@ -12,5 +12,16 @@
     <string name="button_continue">Continuar</string>
     <string name="confirmation_message">Se ha enviado un correo electronico con las instrucciones para restablecer la contraseña!</string>
 
+    <string name="drawer_my_profile">Mi Perfil</string>
+    <string name="drawer_request">Solicitud - Contacto de Pacientes</string>
+    <string name="drawer_following">Seguimiento a pacientes</string>
+    <string name="drawer_medicine">Medicamentos y beneficios del programa</string>
+    <string name="drawer_warning">Aviso legal</string>
+    <string name="drawer_privacy">Politica de privacidad</string>
+    <string name="drawer_contact">Contáctenos</string>
+    <string name="drawer_logout">Cerrar sesión</string>
+    <string name="drawer_open">Abrir Menu</string>
+    <string name="drawer_close">Cerrar Menu</string>
+
 
 </resources>

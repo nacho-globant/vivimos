@@ -4,13 +4,14 @@ import android.app.Activity;
 import android.app.FragmentManager;
 import android.content.Context;
 import android.support.annotation.Nullable;
+import android.support.v7.app.AppCompatActivity;
 
 import java.lang.ref.WeakReference;
 
 public class ActivityView {
-    private WeakReference<Activity> activityRef;
+    private WeakReference<AppCompatActivity> activityRef;
 
-    public ActivityView(Activity activity) {
+    public ActivityView(AppCompatActivity activity) {
         activityRef = new WeakReference<>(activity);
     }
 
