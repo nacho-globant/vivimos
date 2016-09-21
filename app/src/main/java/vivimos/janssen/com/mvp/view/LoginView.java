@@ -1,6 +1,7 @@
 package vivimos.janssen.com.mvp.view;
 
 import android.app.Activity;
+import android.support.v7.app.AppCompatActivity;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -14,7 +15,7 @@ public class LoginView extends ActivityView {
     @BindView(R.id.user_edittext) EditText userEditText;
     @BindView(R.id.pass_edittext) EditText passEditText;
 
-    public LoginView(Activity activity) {
+    public LoginView(AppCompatActivity activity) {
         super(activity);
         ButterKnife.bind(this, activity);
     }

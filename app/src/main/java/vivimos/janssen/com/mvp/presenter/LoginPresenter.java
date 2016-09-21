@@ -3,7 +3,7 @@ package vivimos.janssen.com.mvp.presenter;
 import android.app.Activity;
 import android.content.Intent;
 
-import vivimos.janssen.com.activities.ConfirmationActivity;
+import vivimos.janssen.com.activities.DrawerBaseActivity;
 import vivimos.janssen.com.mvp.model.LoginModel;
 import vivimos.janssen.com.mvp.view.LoginView;
 
@@ -32,7 +32,7 @@ public class LoginPresenter {
             return;
         }*/
 
-        Intent intent = new Intent(activity, ConfirmationActivity.class);
+        Intent intent = new Intent(activity, DrawerBaseActivity.class);
         activity.startActivity(intent);
     }
 }

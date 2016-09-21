@@ -1,7 +1,7 @@
 package vivimos.janssen.com.mvp.view;
 
 
-import android.app.Activity;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageView;
@@ -19,7 +19,7 @@ public class ConfirmationView extends ActivityView {
     @BindView(R.id.email_edittext) EditText emailEditView;
 
 
-    public ConfirmationView(Activity activity) {
+    public ConfirmationView(AppCompatActivity activity) {
         super(activity);
         ButterKnife.bind(this, activity);
     }
